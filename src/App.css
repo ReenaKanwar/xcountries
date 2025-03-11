@@ -1,0 +1,20 @@
+.country-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.country-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.flag {
+  width: 100px;
+  height: 60px;
+  object-fit: cover;
+}
